@@ -7263,8 +7263,7 @@ a {
   text-decoration: none;
   color: #fff; }
   a:hover, a:active, a:focus {
-    opacity: .5;
-    text-decoration: underline; }
+    opacity: .5; }
 
 body {
   background-color: #000; }
@@ -7333,24 +7332,27 @@ body {
   width: 1px; }
 
 .header-content {
-  width: 80%;
-  height: 90vh;
+  width: 85%;
+  height: 85vh;
   margin: 0 auto;
   align-items: center;
   padding-top: 2.75rem; }
   .header-content .logo h1 {
     font-size: 4rem;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 0 auto; }
   .header-content .logo p {
     font-size: 1rem;
     opacity: .5;
-    margin: 0 auto; }
+    margin: 1vh auto; }
   .header-content .tagline {
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    opacity: 0; }
   .header-content p {
     margin: 0 auto; }
 
 .social {
+  opacity: 0;
   width: 85%;
   margin: 0 auto;
   display: flex;
@@ -7361,12 +7363,39 @@ body {
 
 .projects {
   font-family: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", monospace;
-  margin: 5vh 3vw; }
+  opacity: 0;
+  margin: 5vh 5vw; }
   .projects .card-panel {
-    height: 375px; }
+    height: 375px;
+    transition: transform 1s ease; }
+    .projects .card-panel:hover {
+      cursor: pointer;
+      transform: scale(1.1); }
   .projects h2 {
     font-size: 2.56rem; }
   .projects .card-action {
     padding-top: 20px; }
+
+footer h2 {
+  font-size: 1.1rem;
+  font-family: roboto;
+  font-weight: 300; }
+  footer h2 span {
+    animation: colorBlock 20s ease-in infinite;
+    opacity: 0.8; }
+
+@keyframes colorBlock {
+  0% {
+    color: #45CEEF; }
+  20% {
+    color: #FFF5A5; }
+  40% {
+    color: #FFD4DA; }
+  60% {
+    color: #99D2E4; }
+  80% {
+    color: #D8CAB4; }
+  100% {
+    color: #45CEEF; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -2,24 +2,27 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 .header-content {
-  width: 80%;
-  height: 90vh;
+  width: 85%;
+  height: 85vh;
   margin: 0 auto;
   align-items: center;
   padding-top: 2.75rem;
+
   .logo {
     h1{
       font-size: 4rem;
       margin: 0 auto;
+      padding: 0 auto;
     }
     p {
       font-size: 1rem;
       opacity: .5;
-      margin: 0 auto;
+      margin: 1vh auto;
     }
   }
   .tagline {
     font-size: 1.6rem;
+    opacity: 0;
   }
   p {
     margin: 0 auto;
