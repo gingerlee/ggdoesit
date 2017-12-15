@@ -7274,7 +7274,8 @@ body {
  */
 body {
   color: #fff;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: "Roboto", sans serif;
+  font-weight: 300; }
 
 /**
  * Clear inner floats
@@ -7340,11 +7341,11 @@ body {
     font-size: 4rem;
     margin: 0 auto; }
   .header-content .logo p {
-    font-size: .7rem;
+    font-size: 1rem;
     opacity: .5;
     margin: 0 auto; }
   .header-content .tagline {
-    margin: 0 auto; }
+    font-size: 1.6rem; }
   .header-content p {
     margin: 0 auto; }
 
