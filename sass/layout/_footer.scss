@@ -2,21 +2,19 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 footer h2{
-  font-size: 1.1rem;
+  font-size: .9rem;
   font-family: roboto;
   font-weight: 300;
+  opacity: 0;
   span {
     animation: colorBlock 20s ease-in infinite;
-    opacity: 0.8;
+    opacity: .9;
   }
 }
 
 // KEYFRAMES
 @keyframes colorBlock {
   0% {
-    color: #45CEEF;
-  }
-  20% {
     color: #FFF5A5;
   }
   40% {
@@ -29,6 +27,6 @@ footer h2{
     color: #D8CAB4;
   }
   100% {
-    color: #45CEEF;
+    color: #FFF5A5;
   }
 }

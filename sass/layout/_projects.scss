@@ -1,8 +1,13 @@
+
 .projects {
-  font-family: $code-font-stack;
   opacity: 0;
-  margin: 5vh 5vw;
+  margin: 10vh 5vw;
+  .projects-title {
+    padding-left: 2vw;
+    opacity: .5;
+  }
   .card-panel {
+    font-family: $code-font-stack;
     height: 375px;
     transition: transform 1s ease;
     &:hover {
@@ -15,5 +20,6 @@
   }
   .card-action {
     padding-top: 20px;
+    opacity: 0.5;
   }
 }
