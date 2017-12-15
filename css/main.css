@@ -7263,14 +7263,17 @@ a {
   color: #e50050;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #222222;
+    color: #4d4d4d;
     text-decoration: underline; }
+
+body {
+  background-color: #000; }
 
 /**
  * Basic typography style for copy text
  */
 body {
-  color: #222222;
+  color: #fff;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 /**
@@ -7327,5 +7330,17 @@ body {
   padding: 0;
   position: absolute;
   width: 1px; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .logo h1 {
+    font-size: 4rem;
+    margin: 1em auto 0 auto; }
+  .logo p {
+    font-size: .7rem;
+    margin: 1em;
+    color: #4d4d4d; }
 
 /*# sourceMappingURL=main.css.map */
