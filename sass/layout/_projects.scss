@@ -1,0 +1,12 @@
+.projects {
+  font-family: $code-font-stack;
+  margin-top: 5vh;
+  width: 100%;
+  .card-panel {
+    height: 400px;
+  }
+
+  .card-action {
+    padding-top: 20px;
+  }
+}

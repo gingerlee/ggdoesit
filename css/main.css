@@ -7260,10 +7260,10 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff; }
   a:hover, a:active, a:focus {
-    color: #4d4d4d;
+    opacity: .5;
     text-decoration: underline; }
 
 body {
@@ -7333,7 +7333,8 @@ body {
   width: 1px; }
 
 .header-content {
-  width: 85%;
+  width: 80%;
+  height: 90vh;
   margin: 0 auto;
   align-items: center;
   padding-top: 2.75rem; }
@@ -7348,5 +7349,23 @@ body {
     font-size: 1.6rem; }
   .header-content p {
     margin: 0 auto; }
+
+.social {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+  .social a {
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif; }
+
+.projects {
+  font-family: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", monospace;
+  margin-top: 5vh;
+  width: 100%; }
+  .projects .card-panel {
+    height: 400px; }
+  .projects .card-action {
+    padding-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */
