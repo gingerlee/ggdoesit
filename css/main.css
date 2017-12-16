@@ -7394,7 +7394,7 @@ footer h2 {
   margin-bottom: 10vh; }
   footer h2:hover {
     cursor: pointer;
-    transform: scale(2); }
+    transform: scale(1.6); }
   footer h2 span {
     animation: colorBlock 20s ease-in infinite;
     opacity: .9; }

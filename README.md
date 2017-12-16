@@ -12,7 +12,7 @@ To view this repository copy this [link](https://gingerlee.github.io/ggdoesit/) 
 
 ### Technology Used
 * HTML
-* CSS (animations using keframes)
+* CSS (animations using keyframes ✨)
 * SASS
 * javaScript
 * jQuery
