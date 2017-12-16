@@ -2,12 +2,12 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 footer h2{
-  font-size: 4rem;
+  font-size: 3rem;
   opacity: 0;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   transition: transform 1s ease;
-  margin-bottom: 10vh;
+  margin-bottom: 6vh;
   &:hover {
     cursor: pointer;
     transform: scale(1.2);
