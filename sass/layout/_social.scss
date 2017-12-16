@@ -2,9 +2,9 @@
   opacity: 0;
   width: 85%;
   margin: 0 auto 10vh auto;
-  display: flex;
-  flex-direction: column;
   a {
+    display: block;
+    width: 15vw;
     font-size: 1.5em;
     font-family: "Roboto", sans-serif;
   }
