@@ -7357,7 +7357,7 @@ body {
 .social {
   opacity: 0;
   width: 85%;
-  margin: 0 auto;
+  margin: 0 auto 10vh auto;
   display: flex;
   flex-direction: column; }
   .social a {
@@ -7366,7 +7366,7 @@ body {
 
 .projects {
   opacity: 0;
-  margin: 10vh 5vw; }
+  margin: 15vh 5vw; }
   .projects .projects-title {
     padding-left: 2vw;
     opacity: .5;
