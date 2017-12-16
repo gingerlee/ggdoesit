@@ -7394,10 +7394,12 @@ footer h2 {
   margin-bottom: 10vh; }
   footer h2:hover {
     cursor: pointer;
-    transform: scale(1.6); }
+    transform: scale(1.2); }
   footer h2 span {
     animation: colorBlock 20s ease-in infinite;
     opacity: .9; }
+  footer h2 .pdx {
+    margin-bottom: -23px; }
 
 @keyframes colorBlock {
   0% {
