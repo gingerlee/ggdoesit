@@ -5,6 +5,7 @@
   .projects-title {
     padding-left: 2vw;
     opacity: .5;
+    font-size: 1.3rem;
   }
   .card-panel {
     font-family: $code-font-stack;
@@ -17,6 +18,8 @@
   }
   h2 {
   font-size: 2.56rem;
+  font-family: "Roboto", sans serif;
+  font-weight: lighter;
   }
   .card-action {
     padding-top: 20px;

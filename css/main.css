@@ -7261,7 +7261,8 @@ html {
  */
 a {
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+  transition: opacity .5s ease; }
   a:hover, a:active, a:focus {
     opacity: .5; }
 
@@ -7350,6 +7351,8 @@ body {
     opacity: 0; }
   .header-content p {
     margin: 0 auto; }
+    .header-content p span {
+      opacity: .5; }
 
 .social {
   opacity: 0;
@@ -7366,7 +7369,8 @@ body {
   margin: 10vh 5vw; }
   .projects .projects-title {
     padding-left: 2vw;
-    opacity: .5; }
+    opacity: .5;
+    font-size: 1.3rem; }
   .projects .card-panel {
     font-family: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", monospace;
     height: 375px;
@@ -7375,16 +7379,22 @@ body {
       cursor: pointer;
       transform: scale(1.1); }
   .projects h2 {
-    font-size: 2.56rem; }
+    font-size: 2.56rem;
+    font-family: "Roboto", sans serif;
+    font-weight: lighter; }
   .projects .card-action {
     padding-top: 20px;
     opacity: 0.5; }
 
 footer h2 {
-  font-size: .9rem;
-  font-family: roboto;
-  font-weight: 300;
-  opacity: 0; }
+  font-size: 1.1rem;
+  opacity: 0;
+  font-family: 'Sue Ellen Francisco', cursive;
+  transition: transform 1s ease;
+  margin-bottom: 10vh; }
+  footer h2:hover {
+    cursor: pointer;
+    transform: scale(2); }
   footer h2 span {
     animation: colorBlock 20s ease-in infinite;
     opacity: .9; }
