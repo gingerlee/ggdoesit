@@ -4,7 +4,7 @@
 
 ## Description
 
-**CSS Week 4:** A personal portfolio site to compile all CSS, SASS and CSS animation course material. This is a simple site that aims to be clean and straightforward to give a solid sense of who I am and of my technical skills.
+**CSS Week 4:** A personal portfolio site to compile all CSS, SASS and CSS animation course material learned thus far. This is a simple site that aims to be clean and straightforward to give a solid sense of who I am and lend a hand into viewing my technical skills.
 
 ## Installation
 To view this repository copy this [link](https://gingerlee.github.io/ggdoesit/) into the browser of your choice.
@@ -12,9 +12,8 @@ To view this repository copy this [link](https://gingerlee.github.io/ggdoesit/) 
 
 ### Technology Used
 * HTML
+* CSS (animations using keframes)
+* SASS
 * javaScript
 * jQuery
-* CSS
-* SCSS
-* SASS
 * Materialize
