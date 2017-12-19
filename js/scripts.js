@@ -6,10 +6,10 @@ $(document).ready(function() {
     {selector: '.tagline', offset: 20, callback: function(el) {
       Materialize.fadeInImage($(el));
     } },
-    {selector: '.social', offset: 225, callback: function(el) {
+    {selector: '.social', offset: 90, callback: function(el) {
       Materialize.fadeInImage($(el));
     } },
-    {selector: '.projects', offset: 300, callback: function(el) {
+    {selector: '.projects', offset: 100, callback: function(el) {
       Materialize.fadeInImage($(el));
     } },
     {selector: '.footer-text', offset: 10, callback: function(el) {
@@ -19,9 +19,9 @@ $(document).ready(function() {
 
  Materialize.scrollFire(options);
 
-//   $('#social').on('click', function(e) {
-//     e.preventDefault();
-//     $('html, body').animate({ scrollTop: $($(this).attr('.social')).offset().top}, 800, 'linear');
-//   });
-//
+  $('#social').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('.social')).offset().top}, 800, 'linear');
+  });
+
 });
