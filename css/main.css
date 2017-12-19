@@ -7372,9 +7372,6 @@ body {
     transform: rotateZ(-45deg);
     animation: scrollFlutter 2s 5s forwards;
     box-sizing: border-box; }
-  .header-content .row:hover ~ #scroll a {
-    opacity: .15;
-    transition: 2s; }
 
 @keyframes scrollFlutter {
   0% {

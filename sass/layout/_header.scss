@@ -51,9 +51,9 @@
     animation: scrollFlutter 2s 5s forwards;
     box-sizing: border-box;
   }
-  .row:hover ~ #scroll a {
-    opacity: .15; transition: 2s;
-  }
+  // .row:hover ~ #scroll a {
+  //   opacity: .15; transition: 2s;
+  // }
 }
 
 
