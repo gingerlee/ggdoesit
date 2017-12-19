@@ -1,13 +1,14 @@
 
 .projects {
   opacity: 0;
-  margin: 15vh 5vw;
+  margin: 10vh 5vw;
   .projects-title {
     padding-left: 2vw;
     opacity: .5;
     font-size: 1.3rem;
   }
   .card-panel {
+
     font-family: $code-font-stack;
     height: 375px;
     transition: transform 1s ease;

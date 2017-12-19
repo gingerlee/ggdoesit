@@ -7385,7 +7385,7 @@ body {
 .social {
   opacity: 0;
   width: 85%;
-  margin: 0 auto 10vh auto; }
+  margin: 10vh auto; }
   .social a {
     display: block;
     width: 10vw;
@@ -7394,7 +7394,7 @@ body {
 
 .projects {
   opacity: 0;
-  margin: 15vh 5vw; }
+  margin: 10vh 5vw; }
   .projects .projects-title {
     padding-left: 2vw;
     opacity: .5;

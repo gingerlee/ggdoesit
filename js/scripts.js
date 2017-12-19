@@ -19,9 +19,4 @@ $(document).ready(function() {
 
  Materialize.scrollFire(options);
 
-  $('#social').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('.social')).offset().top}, 800, 'linear');
-  });
-
 });
