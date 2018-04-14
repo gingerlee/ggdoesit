@@ -3,8 +3,7 @@
 // -----------------------------------------------------------------------------
 footer {
   h2 {
-    font-size: 2.5rem;
-    opacity: 0;
+    font-size: 2rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     transition: transform 1s ease;
@@ -12,14 +11,15 @@ footer {
     width: 15vw;
     &:hover {
       cursor: pointer;
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
   }
   .footer-quote {
     border-left: 5px solid #2F4F4F;
-    opacity: .5;
+    opacity: 0.5;
     transition-property: opacity;
     transition-duration: 1s;
+    font-weight: 300;
     &:hover {
       cursor: pointer;
       opacity: 1;
