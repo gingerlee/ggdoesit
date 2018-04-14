@@ -18,6 +18,8 @@ footer {
   .footer-quote {
     border-left: 5px solid #2F4F4F;
     opacity: .5;
+    transition-property: opacity;
+    transition-duration: 1s;
     &:hover {
       cursor: pointer;
       opacity: 1;

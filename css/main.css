@@ -7430,7 +7430,9 @@ footer h2 {
     transform: scale(1.2); }
 footer .footer-quote {
   border-left: 5px solid #2F4F4F;
-  opacity: .5; }
+  opacity: .5;
+  transition-property: opacity;
+  transition-duration: 1s; }
   footer .footer-quote:hover {
     cursor: pointer;
     opacity: 1; }
