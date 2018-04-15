@@ -8,13 +8,13 @@
     font-size: 1.3rem;
   }
   .card-panel {
-
+    background: #111111;
     font-family: $code-font-stack;
     height: 375px;
     transition: transform 1s ease;
     &:hover {
       cursor: pointer;
-      transform: scale(1.1);
+      transform: scale(1.025);
     }
   }
   h2 {

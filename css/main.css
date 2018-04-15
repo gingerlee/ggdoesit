@@ -7267,7 +7267,7 @@ a {
     opacity: .5; }
 
 body {
-  background-color: #000; }
+  background-color: #111111; }
 
 /**
  * Basic typography style for copy text
@@ -7331,6 +7331,11 @@ body {
   padding: 0;
   position: absolute;
   width: 1px; }
+
+canvas {
+  display: block;
+  position: fixed;
+  z-index: -1; }
 
 .header-content {
   width: 85%;
@@ -7405,12 +7410,13 @@ body {
     opacity: .5;
     font-size: 1.3rem; }
   .projects .card-panel {
+    background: #111111;
     font-family: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", monospace;
     height: 375px;
     transition: transform 1s ease; }
     .projects .card-panel:hover {
       cursor: pointer;
-      transform: scale(1.1); }
+      transform: scale(1.025); }
   .projects h2 {
     font-size: 2.56rem;
     font-family: "Roboto", sans serif;
@@ -7422,9 +7428,9 @@ body {
 footer h2 {
   font-size: 2rem;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
+  font-weight: lighter;
   transition: transform 1s ease;
-  margin: 6vh auto;
+  margin: 15vh auto;
   width: 15vw; }
   footer h2:hover {
     cursor: pointer;
