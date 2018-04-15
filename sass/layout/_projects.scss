@@ -8,7 +8,8 @@
     font-size: 1.3rem;
   }
   .card-panel {
-    background: #111111;
+    background-color:rgba(0, 0, 0, 0);
+    box-shadow: 0;
     font-family: $code-font-stack;
     height: 375px;
     transition: transform 1s ease;
