@@ -11,9 +11,10 @@ To view this repository copy this [link](https://gingerlee.github.io/ggdoesit/) 
 
 
 ### Technology Used
-* HTML
-* CSS (animations using keyframes ✨)
-* SASS
-* javaScript
+* JavaScript
+* Particle JS
 * jQuery
+* HTML5
+* CSS3 (animations using keyframes ✨)
+* SASS
 * Materialize
