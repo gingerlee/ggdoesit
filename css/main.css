@@ -7337,12 +7337,6 @@ canvas {
   position: fixed;
   z-index: -1; }
 
-#particles-js {
-  width: 100%;
-  height: 100%;
-  background: #111111;
-  z-index: -1; }
-
 .header-content {
   width: 85%;
   height: 90vh;
