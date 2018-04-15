@@ -7349,25 +7349,27 @@ canvas {
   z-index: -1; }
 
 .header-content {
-  opacity: 0;
   width: 85%;
   height: 90vh;
   margin: 0 auto;
   align-items: center;
   padding-top: 2.75rem; }
-  .header-content .logo h1 {
-    font-size: 4.5rem;
-    margin: 0 auto;
-    padding: 0 auto;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300; }
-  .header-content .logo .ginger {
-    opacity: .5;
-    font-size: .9rem;
-    margin: 1vh auto;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300; }
+  .header-content .logo {
+    opacity: 0; }
+    .header-content .logo h1 {
+      font-size: 4.5rem;
+      margin: 0 auto;
+      padding: 0 auto;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300; }
+    .header-content .logo .ginger {
+      opacity: .5;
+      font-size: .9rem;
+      margin: 1vh auto;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300; }
   .header-content .tagline {
+    opacity: 0;
     font-size: 1.6rem; }
   .header-content p {
     margin: 0 auto; }
