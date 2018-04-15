@@ -7411,7 +7411,7 @@ canvas {
     font-size: 1.3rem; }
   .projects .card-panel {
     background-color: rgba(0, 0, 0, 0);
-    box-shadow: 0;
+    box-shadow: none;
     font-family: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", monospace;
     height: 375px;
     transition: transform 1s ease; }
