@@ -1,9 +1,6 @@
 $(document).ready(function() {
   var options = [
-    {selector: '.logo', offset: 10, callback: function(el) {
-      Materialize.fadeInImage($(el));
-    } },
-    {selector: '.tagline', offset: 10, callback: function(el) {
+    {selector: '.header-content', offset: 10, callback: function(el) {
       Materialize.fadeInImage($(el));
     } },
     {selector: '.social', offset: 90, callback: function(el) {
