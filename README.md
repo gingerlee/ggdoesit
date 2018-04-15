@@ -13,7 +13,7 @@ To view this repository copy this [link](https://gingerlee.github.io/ggdoesit/) 
 ### Technology Used
 * JavaScript
 * Particle JS
-* jQuery
+* JQuery
 * HTML5
 * CSS3 (animations using keyframes ✨)
 * SASS

@@ -17,9 +17,6 @@
   'base/typography',
   'base/helpers';
 
-// 4. Layout-related sections
+// 4. Custom Styles
 @import
-  'layout/header',
-  'layout/social',
-  'layout/projects',
-  'layout/footer';
+  'custom';
